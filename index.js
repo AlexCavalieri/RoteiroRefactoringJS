@@ -74,10 +74,6 @@ function formatarMoeda(valor) {
     minimumFractionDigits: 2 }).format(valor/100);
 }
 
-function getPeca(pecas, apre) {
-  return pecas[apre.id];
-}
-
 function gerarFaturaStr (fatura, calc) {
 
     
